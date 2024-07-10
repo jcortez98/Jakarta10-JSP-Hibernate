@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SGBDProductosJ10">
+  <Resource
+          auth="Container"
+          driverClassName="com.mysql.cj.jdbc.Driver"
+          maxIdle="30"
+          maxTotal="100"
+          maxWaitMillis="10000"
+          name="jdbc/SGBDProductosDB"
+          username="root"
+          password="admin"
+          type="javax.sql.DataSource"
+          url="jdbc:mysql://localhost:3306/SGBDProductosDB?serverTimezone=GMT-6"
+  />
+</Context>
