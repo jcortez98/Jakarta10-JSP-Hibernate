@@ -11,7 +11,7 @@ import java.util.List;
 import org.carloscortez.webapp.model.Producto;
 import org.carloscortez.webapp.service.ProductoService;
 
-@WebServlet(name = "ProductoServlet", value = {"/", "/producto-servlet"})
+@WebServlet(name = "ProductoServlet", value = {"/producto-servlet"})
 @MultipartConfig
 public class ProductoServlet extends HttpServlet {
     

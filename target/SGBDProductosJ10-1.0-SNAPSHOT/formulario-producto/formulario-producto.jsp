@@ -36,7 +36,7 @@
             </div>
         </nav>
         <div class="container mt-5">
-            <form action="SGBDProductosJ10/producto-servlet" method="post" enctype="mutipart/form-data">
+            <form action="../../SGBDProductosJ10/producto-servlet" method="post" enctype="mutipart/form-data">
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" id="nombreProducto" name="nombreProducto" placeholder="">
                     <label for="nombreProducto">Nombre del producto</label>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="form-floating mb-3">
                     <textarea class="form-control" placeholder="" id="descripcionProducto" name="descripcionProducto"></textarea>
-                    <label for="descripcionProducto">Comments</label>
+                    <label for="descripcionProducto">Descripción</label>
                 </div>
                 <div class="input-group mb-3">
                     <span class="input-group-text">Q</span>
